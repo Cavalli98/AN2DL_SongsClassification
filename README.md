@@ -6,7 +6,7 @@ The goal of the challenge was to classify time series belonging to 12 different 
 
 ## Model details
 
-For more details about the model check the [Report](https://github.com/Cavalli98/AN2DL_SongsClassification/blob/main/report/Report.pdf). Briefly, we used the following techniques:
+For more details about the model check the [Report](https://github.com/Cavalli98/AN2DL_SongsClassification/blob/master/report/Report.pdf). Briefly, we used the following techniques:
 * We tested different models: BLSTM, GRU, Transformers, 1DCNN. The final model is a ResNet with some final layers for classification.
 * Data augmentation using the library [tsaug](https://tsaug.readthedocs.io/en/stable/index)
 * Test-Time data augmentation (self-ensemble technique) with shifts and flips
